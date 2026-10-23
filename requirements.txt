@@ -1,0 +1,14 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+biopython
+jupyter
+ipykernel
+torch
+fair-esm
+transformers
+tqdm
+requests

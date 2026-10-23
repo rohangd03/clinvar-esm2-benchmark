@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large model embeddings and arrays
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+
+# Downloaded raw ClinVar data
+variant_summary.csv
+variant_summary.txt
+variant_summary.txt.gz
+clinvar_missense_grch38_clean.csv
+
+# Sequence data and clustering intermediates
+*.fasta
+*.fasta.gz
+*.fa
+*.fa.gz
+clust_cluster.tsv
+clust50_cluster.tsv
+
+# Local caches and temporary files
+refseq_nm_cache.json
+tmp/
+tmp50/
+v1_pre_refseq/
+*.tmp
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
